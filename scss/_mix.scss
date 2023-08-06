@@ -1,0 +1,15 @@
+@mixin new_text_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+
+@mixin main_text {
+    font-size: 1.8461538462em;
+    color: $primary-color;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
